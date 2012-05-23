@@ -1,0 +1,31 @@
+E:\database project\database project\obj\Debug\ResolveAssemblyReference.cache
+E:\database project\database project\obj\Debug\database_project.Resources.resources
+E:\database project\database project\obj\Debug\database project.vbproj.GenerateResource.Cache
+E:\database project\database project\bin\Debug\database project.exe
+E:\database project\database project\bin\Debug\database project.pdb
+E:\database project\database project\bin\Debug\database project.xml
+E:\database project\database project\obj\Debug\database project.exe
+E:\database project\database project\obj\Debug\database project.xml
+E:\database project\database project\obj\Debug\database project.pdb
+E:\database project\database project\obj\Debug\database_project.MainForm.resources
+E:\database project\database project\obj\Debug\database_project.managerForm.resources
+E:\database project\database project\bin\Debug\database project.exe.config
+E:\database project\database project\bin\Debug\database project.exe.manifest
+E:\database project\database project\bin\Debug\database project.application
+E:\database project\database project\obj\Debug\database_project.SplashScreen1.resources
+E:\database project\database project\obj\Debug\database project.TrustInfo.xml
+E:\database project\database project\obj\Debug\database project.exe.manifest
+E:\database project\database project\obj\Debug\database project.application
+E:\database project\database project\obj\Debug\database_project.CheckOutForm.resources
+E:\database project\database project\obj\Debug\database_project.Login.resources
+E:\database project\database project\bin\Debug\Hotelapp_db.mdb
+E:\database project\database project\obj\Debug\database_project.AdminForm.resources
+E:\database project\database project\obj\Debug\database_project.ReservationForm.resources
+E:\database project\database project\obj\Debug\database_project.Payroll.resources
+E:\database project\database project\obj\Debug\database_project.EmployeeInfoForm.resources
+E:\database project\database project\obj\Debug\database_project.AboutBox1.resources
+E:\database project\database project\obj\Debug\database_project.Form1.resources
+E:\Hotel Database Application\database project\bin\Debug\database project.exe.config
+E:\Hotel Database Application\database project\obj\Debug\database project.exe
+E:\Hotel Database Application\database project\obj\Debug\database project.xml
+E:\Hotel Database Application\database project\obj\Debug\database project.pdb

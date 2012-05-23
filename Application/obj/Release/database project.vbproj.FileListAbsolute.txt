@@ -1,0 +1,26 @@
+E:\database project\database project\bin\Release\database project.exe.config
+E:\database project\database project\bin\Release\database project.exe.manifest
+E:\database project\database project\bin\Release\database project.application
+E:\database project\database project\bin\Release\database project.exe
+E:\database project\database project\bin\Release\database project.pdb
+E:\database project\database project\bin\Release\database project.xml
+E:\database project\database project\obj\Release\ResolveAssemblyReference.cache
+E:\database project\database project\obj\Release\database_project.CheckOutForm.resources
+E:\database project\database project\obj\Release\database_project.Login.resources
+E:\database project\database project\obj\Release\database_project.managerForm.resources
+E:\database project\database project\obj\Release\database_project.MainForm.resources
+E:\database project\database project\obj\Release\database_project.Resources.resources
+E:\database project\database project\obj\Release\database_project.SplashScreen1.resources
+E:\database project\database project\obj\Release\database project.vbproj.GenerateResource.Cache
+E:\database project\database project\obj\Release\database project.TrustInfo.xml
+E:\database project\database project\obj\Release\database project.exe.manifest
+E:\database project\database project\obj\Release\database project.application
+E:\database project\database project\obj\Release\database project.exe
+E:\database project\database project\obj\Release\database project.xml
+E:\database project\database project\obj\Release\database project.pdb
+E:\database project\database project\bin\Release\Hotelapp_db.mdb
+E:\database project\database project\obj\Release\database_project.AboutBox1.resources
+E:\database project\database project\obj\Release\database_project.AdminForm.resources
+E:\database project\database project\obj\Release\database_project.ReservationForm.resources
+E:\database project\database project\obj\Release\database_project.EmployeeInfoForm.resources
+E:\database project\database project\obj\Release\database_project.Payroll.resources

@@ -1,0 +1,516 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+databaseproject
+</name>
+</assembly>
+<members>
+<member name="P:database_project.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:database_project.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:database_project.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:database_project.RoomType.Reserved_Room_Type_by_DateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.RoomType.Reserved_Room_Type_by_DateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.RoomType.Reserved_Room_Type_by_DateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.RoomType">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:database_project.RoomTypeTableAdapters.Reserved_Room_Type_by_DateTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:database_project.RoomTypeTableAdapters.TableAdapterManager.UpdateUpdatedRows(database_project.RoomType,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:database_project.RoomTypeTableAdapters.TableAdapterManager.UpdateInsertedRows(database_project.RoomType,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:database_project.RoomTypeTableAdapters.TableAdapterManager.UpdateDeletedRows(database_project.RoomType,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:database_project.RoomTypeTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:database_project.RoomTypeTableAdapters.TableAdapterManager.UpdateAll(database_project.RoomType)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:database_project.RoomTypeTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:database_project.RoomTypeTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:database_project.RoomTypeTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Check_InDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Check_OutDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.EmployeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.GuestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.PaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.PayrollDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.ReservationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.RoomDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.UsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Next_Day_ArrivalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Payment_QueriesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Payroll_QueryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Check_InRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Check_OutRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.EmployeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.GuestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.PaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.PayrollRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.ReservationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.RoomRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.UsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Next_Day_ArrivalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Payment_QueriesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Payroll_QueryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Check_InRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Check_OutRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.EmployeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.GuestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.PaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.PayrollRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.ReservationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.RoomRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.UsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Next_Day_ArrivalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Payment_QueriesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1.Payroll_QueryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.Check_InTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.Check_OutTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.EmployeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.GuestTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.PaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.PayrollTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.ReservationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.RoomTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.UsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.Next_Day_ArrivalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.Payment_QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.Payroll_QueryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:database_project.Hotelapp_dbDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(database_project.Hotelapp_dbDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:database_project.Hotelapp_dbDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(database_project.Hotelapp_dbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:database_project.Hotelapp_dbDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(database_project.Hotelapp_dbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:database_project.Hotelapp_dbDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:database_project.Hotelapp_dbDataSet1TableAdapters.TableAdapterManager.UpdateAll(database_project.Hotelapp_dbDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.Check_InDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.Check_OutDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.EmployeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.GuestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.PaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.PayrollDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.ReservationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.RoomDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.UsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.Next_Day_ArrivalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.Payment_QueriesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.Check_InRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.Check_OutRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.EmployeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.GuestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.PaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.PayrollRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.ReservationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.RoomRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.UsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.Next_Day_ArrivalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.Payment_QueriesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.Check_InRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.Check_OutRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.EmployeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.GuestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.PaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.PayrollRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.ReservationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.RoomRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.UsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.Next_Day_ArrivalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet.Payment_QueriesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.Check_InTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.Check_OutTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.EmployeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.GuestTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.PaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.PayrollTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.ReservationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.RoomTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.UsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.Next_Day_ArrivalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.Payment_QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:database_project.Hotelapp_dbDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(database_project.Hotelapp_dbDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:database_project.Hotelapp_dbDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(database_project.Hotelapp_dbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:database_project.Hotelapp_dbDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(database_project.Hotelapp_dbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:database_project.Hotelapp_dbDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:database_project.Hotelapp_dbDataSetTableAdapters.TableAdapterManager.UpdateAll(database_project.Hotelapp_dbDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:database_project.Hotelapp_dbDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

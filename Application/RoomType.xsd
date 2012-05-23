@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RoomType" targetNamespace="http://tempuri.org/RoomType.xsd" xmlns:mstns="http://tempuri.org/RoomType.xsd" xmlns="http://tempuri.org/RoomType.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="Hotelapp_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Hotelapp_dbConnectionString (MySettings)" PropertyReference="ApplicationSettings.database_project.My.MySettings.GlobalReference.Default.Hotelapp_dbConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Reserved Room Type by DateTableAdapter" GeneratorDataComponentClassName="Reserved_Room_Type_by_DateTableAdapter" Name="Reserved Room Type by Date" UserDataComponentName="Reserved Room Type by DateTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Hotelapp_dbConnectionString (MySettings)" DbObjectName="Reserved Room Type by Date" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT CheckInDate, RoomType FROM [Reserved Room Type by Date]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CheckInDate" DataSetColumn="CheckInDate" />
+              <Mapping SourceColumn="RoomType" DataSetColumn="RoomType" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RoomType" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RoomType" msprop:Generator_DataSetName="RoomType" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Reserved_x0020_Room_x0020_Type_x0020_by_x0020_Date" msprop:Generator_UserTableName="Reserved Room Type by Date" msprop:Generator_RowDeletedName="Reserved_Room_Type_by_DateRowDeleted" msprop:Generator_TableClassName="Reserved_Room_Type_by_DateDataTable" msprop:Generator_RowChangedName="Reserved_Room_Type_by_DateRowChanged" msprop:Generator_RowClassName="Reserved_Room_Type_by_DateRow" msprop:Generator_RowChangingName="Reserved_Room_Type_by_DateRowChanging" msprop:Generator_RowEvArgName="Reserved_Room_Type_by_DateRowChangeEvent" msprop:Generator_RowEvHandlerName="Reserved_Room_Type_by_DateRowChangeEventHandler" msprop:Generator_TablePropName="Reserved_Room_Type_by_Date" msprop:Generator_TableVarName="tableReserved_Room_Type_by_Date" msprop:Generator_RowDeletingName="Reserved_Room_Type_by_DateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CheckInDate" msprop:Generator_UserColumnName="CheckInDate" msprop:Generator_ColumnPropNameInRow="CheckInDate" msprop:Generator_ColumnVarNameInTable="columnCheckInDate" msprop:Generator_ColumnPropNameInTable="CheckInDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RoomType" msprop:Generator_UserColumnName="RoomType" msprop:Generator_ColumnPropNameInRow="RoomType" msprop:Generator_ColumnVarNameInTable="columnRoomType" msprop:Generator_ColumnPropNameInTable="RoomTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
